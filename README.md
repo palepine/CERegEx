@@ -48,7 +48,7 @@ From the solution directory, run:
 
 ## Setup
 
-1. Copy the compiled DLL to Cheat Engine\plugins
+1. Copy the compiled DLL to `Cheat Engine\plugins`
 2. Open Cheat Engine
 3. Go to `Edit -> Settings -> Plugins`
 4. `Add new` the plugin DLL
