@@ -90,7 +90,7 @@ On success, it returns a table with dictionaries of two fields:
 - `text`
   - String containing a matched string
 
-Returns `nil` on any failure or empty table if no matches
+Returns `nil` on any failure or if no matches
 
 ### Example
 
