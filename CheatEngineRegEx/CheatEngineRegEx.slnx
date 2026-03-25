@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CheatEngineRegEx/CheatEngineRegEx.vcxproj" Id="761d086b-c38f-4cc5-8669-010b0205c138" />
+</Solution>

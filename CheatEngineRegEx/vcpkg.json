@@ -1,0 +1,8 @@
+{
+  "name": "cheat-engine-regex",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "re2",
+    "pcre2"
+  ]
+}

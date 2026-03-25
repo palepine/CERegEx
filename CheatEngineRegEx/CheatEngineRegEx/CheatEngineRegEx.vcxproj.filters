@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\scan">
+      <UniqueIdentifier>{2938badc-fe6c-4545-9c30-1589c1b6afa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\plugin">
+      <UniqueIdentifier>{be2786b4-f807-4a8c-995f-0c5c636939b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\memory">
+      <UniqueIdentifier>{d9f4fe49-908a-47b5-833f-25ead8970fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lua">
+      <UniqueIdentifier>{849e66b7-2198-4cae-bbb7-34eeab4f515a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\regex">
+      <UniqueIdentifier>{0b559eea-5030-42af-b721-cba3788939bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extractors">
+      <UniqueIdentifier>{c54b192a-e4ca-4401-a46f-d14279cd2630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\parsing">
+      <UniqueIdentifier>{ad235452-32fd-4532-9e75-dd32750cb8e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanService.h">
+      <Filter>Source Files\scan</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanTypes.h">
+      <Filter>Source Files\scan</Filter>
+    </ClInclude>
+    <ClInclude Include="IRegexEngine.h">
+      <Filter>Source Files\regex</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryScan.h">
+      <Filter>Source Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaBindings.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaResultWriter.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginContext.h">
+      <Filter>Source Files\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryRegionEnumerator.h">
+      <Filter>Source Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessMemoryReader.h">
+      <Filter>Source Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginHelper.h">
+      <Filter>Source Files\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="IStringExtractor.h">
+      <Filter>Source Files\extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="ASCIIStringExtractor.h">
+      <Filter>Source Files\extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="StdRegexEngine.h">
+      <Filter>Source Files\regex</Filter>
+    </ClInclude>
+    <ClInclude Include="UTF16StringExtractor.h">
+      <Filter>Source Files\extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractorFactory.h">
+      <Filter>Source Files\extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanOptionParsing.h">
+      <Filter>Source Files\parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="RegexFactory.h">
+      <Filter>Source Files\regex</Filter>
+    </ClInclude>
+    <ClInclude Include="RE2RegexEngine.h">
+      <Filter>Source Files\regex</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigValidator.h">
+      <Filter>Source Files\scan</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtectionFlags.h">
+      <Filter>Source Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaHelpers.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="PCRE2RegexEngine.h">
+      <Filter>Source Files\regex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ScanService.cpp">
+      <Filter>Source Files\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryScan.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaBindings.cpp">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaResultWriter.cpp">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryRegionEnumerator.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessMemoryReader.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PluginMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ASCIIStringExtractor.cpp">
+      <Filter>Source Files\extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="StdRegexEngine.cpp">
+      <Filter>Source Files\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="UTF16StringExtractor.cpp">
+      <Filter>Source Files\extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractorFactory.cpp">
+      <Filter>Source Files\extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanOptionParsing.cpp">
+      <Filter>Source Files\parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="RegexFactory.cpp">
+      <Filter>Source Files\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="RE2RegexEngine.cpp">
+      <Filter>Source Files\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigValidator.cpp">
+      <Filter>Source Files\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtectionFlags.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaHelpers.cpp">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="PCRE2RegexEngine.cpp">
+      <Filter>Source Files\regex</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CheatEngineRegEx.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\vcpkg.json" />
+  </ItemGroup>
+</Project>
