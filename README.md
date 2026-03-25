@@ -39,7 +39,7 @@ If you do not already have `vcpkg` integrated with Visual Studio:
 
 ### 2. Restore dependencies
 
-From the `CheatEngineRegEx` directory, run:
+From the solution directory, run:
 `vcpkg install`
 
 ### 4. Build the project
